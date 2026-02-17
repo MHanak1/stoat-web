@@ -87,6 +87,8 @@ export function EmojiList(props: { server: Server }) {
             </Column>
             <Column grow>
               <Form2.TextField
+                minlength={1}
+                maxlength={32}
                 name="name"
                 control={editGroup.controls.name}
                 label={t`Emoji Name`}

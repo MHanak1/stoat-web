@@ -15,6 +15,9 @@ type Props = JSX.HTMLAttributes<HTMLInputElement> & {
   rows?: number;
   "min-rows"?: number;
   "max-rows"?: number;
+  maxlength?: number;
+  minlength?: number;
+  counter?: boolean;
   placeholder?: string;
   type?: "text" | "password" | "email" | "file";
   variant?: "filled" | "outlined";

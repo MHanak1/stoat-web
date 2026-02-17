@@ -56,6 +56,8 @@ export function CreateWebhookModal(
     >
       <form onSubmit={submit}>
         <Form2.TextField
+          minlength={1}
+          maxlength={32}
           name="name"
           control={group.controls.name}
           label={t`Webhook Name`}

@@ -65,6 +65,8 @@ export function CreateChannelModal(
       <form onSubmit={submit}>
         <Column>
           <Form2.TextField
+            minlength={1}
+            maxlength={32}
             name="name"
             control={group.controls.name}
             label={t`Channel Name`}

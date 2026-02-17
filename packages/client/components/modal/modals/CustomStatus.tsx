@@ -60,6 +60,7 @@ export function CustomStatusModal(
       <form onSubmit={submit}>
         <Column>
           <Form2.TextField
+            maxlength={128}
             name="text"
             control={group.controls.text}
             label={t`Custom status`}
