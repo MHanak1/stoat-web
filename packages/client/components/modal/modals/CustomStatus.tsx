@@ -61,6 +61,7 @@ export function CustomStatusModal(
         <Column>
           <Form2.TextField
             maxlength={128}
+            counter
             name="text"
             control={group.controls.text}
             label={t`Custom status`}

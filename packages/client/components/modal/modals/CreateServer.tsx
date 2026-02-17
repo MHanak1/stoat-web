@@ -69,6 +69,7 @@ export function CreateServerModal(
           <Form2.TextField
             minlength={1}
             maxlength={32}
+            counter
             name="name"
             control={group.controls.name}
             label={t`Server Name`}
