@@ -169,6 +169,7 @@ export function UserProfileEditor(props: Props) {
           minlength={2}
           maxlength={32}
           counter
+          pattern="^[^\u200B\n\r]+$"
           name="displayName"
           control={editGroup.controls.displayName}
           label={t`Display Name`}

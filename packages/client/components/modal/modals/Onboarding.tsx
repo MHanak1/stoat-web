@@ -56,6 +56,7 @@ export function OnboardingModal(
           <Form2.TextField
             minlength={1}
             maxlength={32}
+            pattern="^[\p{L}\d_.-]+$"
             counter
             name="username"
             control={group.controls.username}
