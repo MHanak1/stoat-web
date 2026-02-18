@@ -61,7 +61,7 @@ function FormTest() {
       <Form2.TextField
         minlength={1}
         maxlength={32}
-        pattern="^[\p{L}\d_.-]+$"
+        pattern="^(\p{L}|[\d_.\-])+$"
         counter
         name="name"
         control={group.controls.name}
